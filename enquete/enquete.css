@@ -1,0 +1,51 @@
+* {
+    background-color:rgb(235, 232, 229);
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 0.25vw;
+}
+
+h1 {
+    font-size: 4vh;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+
+ol {
+    font-size: 3vh;
+    margin-bottom: 1px;
+}
+
+input {
+    background-color: rgb(212, 229, 240);
+    width: 8vh;
+    height: 6vh;
+    font-size: 5vh;
+    text-align: center;
+}
+
+button {
+    margin-left: 2vw;
+    background-color: rgb(208, 240, 208);
+    font-size: 3vh;
+    height: 5vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 4vh;
+}
+
+#html {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 45vw;
+    height: 85vh;
+    width: 50vw;    
+}

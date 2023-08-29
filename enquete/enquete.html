@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="enquete.css">
+    <title>Enquete de Sistemas Operacionais</title>
+</head>
+<body>
+    <h1>Qual é o melhor Sistema Operacional?</h1>
+    <div id="html"></div>
+    <ol start="1">
+        <li>Windows Server</li>
+        <li>Unix</li>
+        <li>Linux</li>
+        <li>Netware</li>
+        <li>Mac OS</li>
+        <li>Outro</li>
+    </ol>
+    <p>0. Finalizar</p>
+    <h1>Digite um valor:</h1>
+    <form id='form' onsubmit="return fazerContagem(event, this)">
+        <input id="input" type="number" autofocus="on" min="0" max="6" maxlength="1">
+        <button type="submit" id="button">Enviar</button>
+    </form>
+    <div>
+        <h1>Resultados:</h1>
+        <ol start="1">
+            <li id="1">Windows Server:</li>
+            <li id="2">Unix:</li>
+            <li id="3">Linux:</li>
+            <li id="4">Netware:</li>
+            <li id="5">Mac OS:</li>
+            <li id="6">Outro:</li>
+        </ol>
+    </div>
+</body>
+<script src="enquete.js"></script>
+</html>
